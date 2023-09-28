@@ -43,7 +43,7 @@ It requires a minimum of two input values.
 
 Syntax:-concat(expression1,expression2,expression3)
 
-6.Replace:-The REPLACE() function replaces all occurrences of a substring within a string, with a new substring.
+6.Replace:-The REPLACE() function replaces all occurrences of a substring within a string, with a new substring.Replace function is case sensitive.
   Syntax:- Select replace('string','oldstring','newstring')
 
   for example:-select replace(replace(replace(first_name,'A','^'),'R',#),'o','e') from customer;
@@ -56,10 +56,10 @@ Syntax:-concat(expression1,expression2,expression3)
 
   Syntax:-position(substring in string)
 
-  8.substring:-The SUBSTRING() function extracts a substring starting from a position in an input string with a given length.
+  8.substring:-The SUBSTRING() function extracts a part of the string.
   
   syntax:-select substring('string','position of the string to be extracted','length of the string to be extracted')
 
-  for example:-select substring('odin school students',position(school in odin school students),6);
+  for example:-select substring('sarvottam school students',position(school in sarvottam school students),6);
 
   
